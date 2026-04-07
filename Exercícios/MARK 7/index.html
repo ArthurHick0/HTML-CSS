@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Principais formatações</h1>
+
+    <h2>Negrito / Destaque</h2>
+
+    <p>Nessa frase temos um <b>termo em negrito</b>
+        usando a tag &lt;b&gt (Não semântica);</p>
+
+    <p>Nessa frase temos um <strong>termo em destaque</strong>
+        usando a tag &lt;strong&gt; (Semântica); </p>
+
+    <h2>Itálico / Ênfase</h2>
+
+    <p>Nessa frase temos um <i>termo em itálico</i> usando a tag &lt;i&gt; (Não semântica)</p>
+    <p>Nesta frase temos um <em>termo em ênfase</em> usando a tag &lt;em&gt; (Semântica)</p>
+
+    <h2>Texto marcado</h2>
+
+    <p>Podemos criar também <mark style="background-color: lime">um texto marcado</mark>
+        usando a tag &lt;mark&gt;</p>
+
+    <p>E no outro paragrafo, temos <mark>outro texto marcado</mark> no final</p>
+
+    <h2>Texto grande e pequeno</h2>
+
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small>
+        nesse parágrafo <!-- Tag <big> está OBSOLETA --></p>
+
+    <h2>Texto deletado</h2>
+
+    <p>Podemos marcar <del>um texto como excuído</del> para indicar que ele deve ser lido,
+        mas não considerado</p>
+
+    <h2>Texto inserido</h2>
+
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e
+        indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag &lt;u&gt; (Não semântica)</p>
+
+    <p><strong>
+            OBS: Nos casos acima temos exemplos de SENTIDO (Tags SEMÂNTICAS) e FORMA
+            (Tags NÂO SEMÂNTICAS, que estão, em sua maioria, obsoletas e que não devem ser usadas)
+        </strong>
+    </p>
+
+    <h2>Texto sobrescrito</h2>
+
+    <p>Para inserir coisas do tipo: x<sup>20</sup>+3</p> <!-- RESULTADO: x  elevado a 20  -->
+
+    <h2>Texto subscrito</h2>
+
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p> <!-- RESULTADO: Fórmula química da água -->
+
+    <!-- --------------------------------------------------------------------------------------------- -->
+
+    <hr>
+    <h2><br>&darr; Tags que estão obsoletas em HTML5 &darr;</h2>
+    <h3><strong>
+            OBS: As tags a seguir ainda existem e funcionam, porém, <br>é recomendado que
+            não sejam mais utilizadas em HTML5 moderno!
+        </strong>
+    </h3>
+
+    <h4>Tags de apresentação visuais (Substituidas por CSS):</h4>
+    <p> &lt;font&gt; &nbsp; &rarr; Em CSS &rarr; &nbsp; (color, font-family)
+        <br>&lt;center&gt; &nbsp; &rarr; &nbsp; text-align: center
+        <br>&lt;big&gt; &nbsp; &rarr; &nbsp; font-size
+        <br>&lt;strike&gt; &nbsp; &rarr; &nbsp; text-decoration: line-through
+        <br>&lt;tt&gt; &nbsp; &rarr; &nbsp; font-family: monospace
+    </p>
+
+    <h4>Estrutura antiga / desnecessária:</h4>
+    <p> &lt;frame&gt;
+        <br>&lt;frameset&gt;
+        <br>&lt;noframes&gt;<br>
+        <br>Substituído por: &lt;iframe&gt;
+    </p>
+
+    <h4>Semântica ruim ou substituída:</h4>
+    <p>
+        &lt;acronym&gt; &nbsp; &rarr; use &nbsp; &rarr; &lt;abbr&gt;
+        <br>&lt;applet&gt; &nbsp; &rarr; use &nbsp; &rarr; &lt;object&gt; ou JS moderno
+        <br>&lt;dir&gt; &nbsp; &rarr; use &nbsp; &rarr; &lt;ul&gt;
+        <br>&lt;isindex&gt; &nbsp; &rarr; removido completamente
+    </p>
+
+    <h4>Multimídia antiga:</h4>
+    <p>
+        &lt;basefont&gt;
+        <br>&lt;bgsound&gt;
+        <br>&lt;marquee&gt<br>
+        <br>Substituido por: CSS animations / JavaScript
+    </p>
+</body>
+
+</html>
