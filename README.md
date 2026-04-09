@@ -1,8 +1,16 @@
 # HTML-CSS
-Curso de HTML5 e CSS 3 com Guanabara
+Curso de HTML5 e CSS3 com o Professor Gustavo Guanabara
+
+Logo abaixo terá uma lista com todos os sites feitos (Em aula) no decorrer do curso.
+
+Para abir o site em outra guia: 
+
+Se estiver no computador, passe o mouse por cima do link, clique com o botão direito e logo após selecione "Abrir link em uma nova guia" 
+
+Se estiver no celular, clique e segure no link e depois selecione "Abrir em nova guia"
 
 <details>
-    <summary>Clique aqui para abrir a lista com os links para todos os sites criados no decorrer do curso</summary>
+    <summary>Clique aqui para abrir a lista</summary>
     
 - [MARK 1 - Index](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-1/index.html)
 
