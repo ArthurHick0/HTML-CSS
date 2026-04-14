@@ -43,7 +43,7 @@ Se estiver no celular, clique e segure no link e depois selecione "Abrir em nova
 
 - [MARK 15 - Estilos externos](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-15/index.html)
 
-- [MARK 16 - Site de Exemplo](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-16/cor03.html)
+- [MARK 16 - Cores](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-16/index.html)
     
 </details>
 
