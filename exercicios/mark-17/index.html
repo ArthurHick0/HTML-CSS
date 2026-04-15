@@ -9,11 +9,59 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+
+            /* 
+                Medidas Absolutas
+                cm, mm, in (Polegada), px, pt (Ponto), pc (Paica) 
+                
+                Medidas Relativas
+                em, ex, rem, vw, vh, %
+
+                16px = Tamanho padrão de fontes em navegadores
+                1px = 1em
+            */
+
+            font-size: 1em;
+            /* TAMANHO */
+
+            /* font-weight: normal; */
+            /* PESO DA FONTE */
+
+            /* font-style: italic; */
+            /* MUDANÇA DE ESTILO */
+
+            /* text-decoration: underline; */
+            /* SUBLINHADO */
+
+            /* 
+                Valores literais de peso: 
+                
+                lighter = Leve / normal = Padrão / bold = Pesada / bolder = Muito pesada  
+            */
+
+            /* 
+                weight = PESO / width = LARGURA / height = ALTURA 
+            */
+
+            /* Nem todas as fontes tem compatibilidade com esses estilizações, então é necessaário usar o Google Fonts para achar fontes que possibilitem as configurações necessárias */
         }
 
-        h1,
+        h1 {
+            /* font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans', serif; */
+
+            /* shorthand font / Ordem de aplicação
+
+            font-style -> font-weight -> font-size -> font-family
+            */
+
+            font: italic bolder 3em 'Work Sans', serif
+        }
+
         h2 {
-            font-family: 'Times New Roman', Times, serif;
+            font: italic bolder 2em 'Times New Roman', 'Times', serif
         }
     </style>
 </head>
@@ -32,22 +80,33 @@
     <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, officiis tempora ea quae adipisci cum
         voluptate nemo laboriosam minus molestiae repellat minima magni qui temporibus. Voluptatem quisquam minus
-        consequatur quia?
+        consequatur quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cum odio, velit ipsa nesciunt qui sapiente rem nam aliquam error officiis rerum delectus vitae eos aperiam modi, porro, consectetur ea.
     </p>
 
     <h2>Subtítulo do exercício</h2>
     <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quasi, iste nulla totam aliquam minima,
         voluptatem optio accusantium qui itaque quis explicabo? Assumenda similique officia saepe consectetur maiores,
-        pariatur veniam?
+        pariatur veniam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusamus rerum minus aspernatur assumenda dolor quasi obcaecati, id quaerat facilis eaque blanditiis dolores hic dicta dolorem. At assumenda est sapiente?
     </p>
 
     <h1>&darr; Sobre o conteúdo &darr;</h1>
 
     <p style="font-weight: bold; font-size: 1.15em;">
-        No título e no subtítulo temos o foco em fontes serifadas - Serif - ("Times New Roman" e/ou "Times"), o intuíto disso é dar ainda mais destaque para a representação de título, pois é ele que da início a leitura do conteúdo do resto do site.
+        No título e no subtítulo temos o foco em fontes serifadas - Serif, junto de um aumento de tamanho, aplicação de negrito e estilo itálico. 
+        O intuíto disso é dar ainda mais destaque para a representação de título, pois são eles que dão início a leitura dos conteúdos dos parágrafos que vem em sequência.
         <br> <br>
-        Já nos parágrafos de conteúdo temos uso de fontes não serifadas - Sans-Serif - ("Arial" e/ou "Helvetica"), o intuíto disso é tornar a leitura prolongada, em tela, menos cansativa.
+        Já nos parágrafos de conteúdo temos uso de fontes não serifadas - Sans-Serif e o estilo se mantém "Padrão"/"Básico". O intuíto disso é tornar a leitura prolongada, em tela, menos cansativa.
+        <br> <br>
+
+        Na pagina 2 você conhecerá como funciona importações de fontes da web direto para o código HTML.
+        <br>
+
+        <p style="text-align: right;">
+            <a href="pag02.html" target="_self" rel="next">
+                <strong>Página 2</strong>
+            </a>
+        </p>
     </p>
 </body>
 

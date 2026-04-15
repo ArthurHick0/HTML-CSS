@@ -44,6 +44,8 @@ Se estiver no celular, clique e segure no link e depois selecione "Abrir em nova
 - [MARK 15 - Estilos externos](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-15/index.html)
 
 - [MARK 16 - Cores](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-16/index.html)
+
+- [MARK 17 - Fontes](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-17/index.html)
     
 </details>
 
