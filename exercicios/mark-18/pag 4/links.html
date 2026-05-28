@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicons/favicon-dedo.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+
+        /*  SELETORES PERSONALIZADOS
+
+            #   = ID
+            .   = Class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = children 
+            
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial::before {
+            content: '⇒';
+        }
+
+        .especial::after {
+            content: '⇐';
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;            
+            flex-wrap: wrap;
+        }
+
+        #finalizacao:hover {
+            color: hsl(240, 100%, 50%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul type="disc">
+        <li>
+            <a href="https://gustavoguanabara.github.io" class="especial">
+                Repositório GitHub
+            </a>
+        </li>
+        <li>
+            <a href="https://youtube.com/cursoemvideo" class="especial">
+                Canal do YouTube
+            </a>
+        </li>
+        <li>
+            <a href="https://www.cursoemvideo.com" class="especial">
+                Site do CursoemVideo
+            </a>
+        </li>
+    </ul>
+
+    <br>
+    <h1>&darr; Sobre o conteúdo &darr;</h1>
+
+    <p style="font-weight: bold; font-size: 1.15em;">
+        Nessa página temos uso de pseudo-classes e pseudo-elementos. A diferença entre pseudo-classe e pseudo-elemento consiste em: 
+        pseudo-classes determinam o comportamento dos elementos, já os pseudo-elementos controlam <strong>uma parte</strong> do elemento em questão. <br> <br>
+
+        No caso dos links de exemplo, foram utilizados os pseudo-elementos: after e before, que incluem setas de ênfase e nos links já foram abertos. <br> <br>
+
+        Também é possível utilizar classes juntos de pseudo-elementos, como no caso do último link. A classe aplica o background e os pseudo-elementos (Before e after) criam o conteúdo (Setas) após o uso. <br> <br>
+
+        Também foi utilizado a pseudo-classe "visited" que funciona de maneira que: Ao clicar e segurar no link e arrastar pela tela, sua escrita fica amarela (Comportamento com base no estado/situação - Pseudo-classe). <br> <br>
+
+        <span id="finalizacao">Logo abaixo haverão dois links, um de retorno para a página anterior e outro que redireciona para a página inicial.</span>
+    </p>
+
+    <footer>
+        <a href="../pag 3/pseudoclasse.html">
+            <strong>Página 3</strong>
+        </a>
+        <a href="../index.html">
+            <strong>Página Principal</strong>
+        </a>
+    </footer>
+</body>
+</html>

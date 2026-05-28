@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicons/favicon-guanabara.ico" type="image/x-icon">
+    <title>Pseudo-Classes</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: lightgrey;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: yellow;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;            
+            flex-wrap: wrap;
+        }
+
+        #finalizacao:hover {
+            color: hsl(240, 100%, 50%);
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div> 
+
+    <br> <br>
+    <h1 style="font-size: 2em; font-family: sans-serif;">&darr; Sobre o conteúdo &darr;</h1>
+    
+    <p style="font-weight: bold; font-size: 1.40em; font-family: sans-serif;">
+        Nessa página temos 3 divs atribuidas ao uso de Hover. <br>
+
+        Nesse exemplo temos 3 divs formatadas para utilizarem o mouse para determinar o estado de cada uma, com isso vemos que:
+        Ao passar o mouse sobre qualquer uma delas temos uma alteração no seu background. Tal estilo só é possível com uso de pseudo-classes. <br> <br>
+
+
+        <span id="finalizacao">Na página 4 veremos sobre pseudo-elementos e links.</span>
+
+    </p>
+
+    <footer>
+        <a href="../pag 2/hover.html">
+            <strong>Página 2</strong>
+        </a>
+        <a href="../pag 4/links.html">
+            <strong>Página 4</strong>
+        </a>
+    </footer>
+</body>
+</html>

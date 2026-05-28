@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicons/favicon-vscode.png" type="image/x-icon">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+        
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+
+        div:hover {
+            color: red;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;            
+            flex-wrap: wrap;
+        }
+
+        #finalizacao:hover {
+            color: #0000ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+
+    <p>Passo o mouse sobre o texto abaixo</p>
+
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+
+    <p>Fim do exemplo</p> <br>
+
+    <h1>&darr; Sobre o conteúdo &darr;</h1>
+
+    <p style="font-weight: bold; font-size: 1.15em;">
+        Hover é uma pseudo-classe que possibilita atribuir formtações a um seletor com base em seu estado situacional. <br> <br>
+
+        No caso dessa página simples, temos uso de "hover": Uma pseudo-classe que determina o estado do texto com base no uso do mouse. <br>
+
+        De maneira natural, não há estilizações nos textos de exemplo, porém, como determinado na própria página, ao passar o mouse por cima do texto em questão, 
+        aparece outro texto com estilo e forma. O aparecimento desse novo texto só é possível ao passar o mouse pelo texto inicial, e isso só é possível com uso de Hover, uma pseudo-classe que determina o estilo de um objeto com base em seu estado. <br> <br>
+        
+        Os textos de exemplo estão formatados por divs, incluindo o texto que explica o uso do mouse. Com isso é utilizado outro conceito das pseudo-classes que são as caixas de texto derivadas/pertencentes (Mais conhecidas com "Filho(a)s") a outra caixa de texto. <br>
+        Esse uso possibilita que os "filhos" das divs principais tenham características de pseudo-classes assim como as divs principais. <br> <br>
+        
+        A aplicação nas CSS, consiste em usar ">" após a identificação da div em questão. Isso fará ambas as divs serem estilizadas como conectadas. <br>
+        No caso do texto de exemplo, isso fica evidente no trecho: "Passe o mouse aqui", que fica em vermelho ao mesmo tempo que o texto escondido surge. Ambos os efeitos são possibilitados pelo uso da pseudo-classe: Hover! <br> <br>
+
+        <span id="finalizacao">Na página 3 veremos mais sobre o uso de Hover e divs.</span>
+    </p>
+
+    <footer>
+        <a href="../index.html">
+            <strong>Página 1</strong>
+        </a>
+        <a href="../pag 3/pseudoclasse.html">
+            <strong>Página 3</strong>
+        </a>
+    </footer>
+</body>
+</html>
