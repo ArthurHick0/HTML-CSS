@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+nav {
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.37);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main#main_guanabara {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px 50px;
+}
+
+main#main_hick {
+    background-color: white;
+    
+    padding: 10px;
+    margin: 20px 10px;
+    
+    border-radius: 15px;
+}
+
+main#main_hick > h1 {
+    text-align: center;
+    font: normal bold 2em sans-serif;
+}
+
+p#paragrafo_hick {
+    font: normal bold 1.10em sans-serif
+}
+
+article {
+    background-color: lightgray;
+}
+
+article > aside {
+    background-color: rgb(165, 165, 165);
+}
+
+footer#guanabara {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+    border-radius: 50px 0px;
+}
+
+footer#guanabara > p {
+    margin: 0px;
+}
+
+footer#pag01 {
+    display: flex;
+    justify-content: space-between;            
+    flex-wrap: wrap;
+}
+
+footer#pag01 > a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer#pag01 > a:hover {
+    text-decoration: underline;
+}
+
+span#conteudo {
+    color: blue;
+}

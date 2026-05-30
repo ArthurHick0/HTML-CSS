@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicons/favicon-guanabara.ico" type="image/x-icon">
+    <link rel="stylesheet" href="pag01.css">
+    <title>Modelo de Caixas</title>
+</head>
+<body>
+    <h1 id="titulo_guanabara">Exemplo de caixa box-level</h1>
+    <p>
+        Parágrafos também são exemplos de box-level, mas os <a href="#" id="ancora_guanabara">links são exemplos de caixas inline-level</a>.
+        Vamos ver como tudo isso funciona.
+    </p> <br>
+
+    <h1 id="titulo_hick">&darr; Sobre o conteúdo &darr;</h1>
+
+    <p id="paragrafo_hick">
+        Nesta página se inicia o estudo sobre Modelo de Caixas. <br>
+        Box Model consiste na organização, dimensionamento e espaçamento dos diversos elementos que compoêm uma página Web.
+        Nesse modelo, cada elemento é entendido como uma caixa retangular que possuem 4 fundamentos: <br> <br>
+        
+        <span id="conteudo">Elemento</span> -> Podem ser: Títulos, parágros, imagens, vídeos, links, etc.. Basicamente, o navegador entende todo tipo de exibição como uma caixa. <br> <br>
+
+        <span id="conteudo">Padding</span> -> Peenchimento/Espaço interno entre o conteúdo do elemento e borda externa. <br> <br>
+
+        <span id="conteudo">Border</span> -> Linha de contorno que envolve o conteúdo e o padding, fica entre os anteriores e a margem. <br> <br>
+
+        <span id="conteudo">Margin</span> -> Espaço que contorna a borda, serve para as afastar as diversas caixas da página umas das outras.
+
+        <br> <br>
+
+        Existem dois tipos de modelos de caixa, ambas seguem a premissa de caixa retangular que envolve o conteúdo, porém o que difere cada uma é tanto o conteúdo quanto o seu impacto na página.
+        São eles: Box-level e Inlie-level <br> <br>
+
+        <span id="conteudo">Box-level</span> -> Preenchem toda a largura da tela e sempre pulam linha em perpectiva ao elemento anterior. <br>
+        Exemplos: div's | Parágrafos | Títulos | Listas | Cabeçalhos <br> <br>
+
+        <span id="conteudo">Inline-level</span> -> Ocupam apenas o espaço preenchido por seu próprio elemento e não quebram linha. <br>
+        Exemplos: span | Imagens | Vídeos | Áudio | Botãos | Input's (Campos externos de digitação de texto) <br> <br>
+
+        O Modelo de Caixas condiz totalmente com a semântica do HTML5 pois permite a estilização completa de todos os elementos utilizados na criação de qualquer site, independente de seu direcionamento.
+        
+        <br> <br>
+        <span>Na página 2 trataremos sobre: Tags de agrupamento, sombras e arredondamento de bordas.</span>
+        
+        <p id="pag02">
+            <a href="caixa02.html" target="_self" rel="next">
+                <strong>Página 2</strong>
+            </a>
+        </p>
+    </p>
+</body>
+</html>

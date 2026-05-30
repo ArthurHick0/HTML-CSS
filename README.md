@@ -48,6 +48,8 @@ Se estiver no celular, clique e segure no link e depois selecione "Abrir em nova
 - [MARK 17 - Fontes](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-17/index.html)
 
 - [MARK 18 - Seletores Personalizados](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-18/index.html)
+
+- [MARK 19 - Modelo de Caixas](https://arthurhick0.github.io/HTML-CSS/exercicios/mark-19/caixa01.html)
     
 </details>
 
